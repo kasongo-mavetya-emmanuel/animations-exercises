@@ -1,3 +1,4 @@
+import 'package:animations_trials/drawer_3d.dart';
 import 'package:animations_trials/test_position.dart';
 import 'package:flutter/material.dart';
 
@@ -35,8 +36,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-      body: TestPosition(),
-    );
+    return Drawer3D();
   }
 }
